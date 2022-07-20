@@ -1,0 +1,45 @@
+.container {
+    background-color: rgb(123,208,255);
+    border-radius: 15px;
+    min-height: 190px;
+    width: 400px;
+    margin: 120px auto ;
+    padding: 20px;
+}
+
+p {
+    text-align: center;
+    padding-top: 15px;
+    color: snow;
+    font-size: 30px;
+    line-height: 25px;
+}
+
+.createNewToDo {
+    text-align: center;
+
+}
+
+input {
+    width: calc(100% - 30px);
+    padding: 10px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    border-color: palevioletred;
+}
+
+input :focus {
+    border-color: palevioletred;
+}
+
+.addNewToDo {
+    width: 100%;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 15px;
+    border-color: palevioletred;
+}
+
+.addNewToDo :active {
+    border-color: seagreen;
+}
